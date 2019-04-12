@@ -1,0 +1,27 @@
+#cont1{
+	border: 1px solid red;
+}
+#cont2{
+	border:1px solid red;
+}
+#cont3{
+border: 1px solid red;
+}/*this is the map*/
+#map{
+margin: 0 auto; 
+}
+#map_div{
+border:1px solid blue;
+}
+#map_row{
+border:1px solid blue;
+text-align: right;	
+}
+#cont4{
+
+}
+#contact_form{
+border: 1px green;
+background: red;
+}
+/* feel free to change ID values to suit completion needs */

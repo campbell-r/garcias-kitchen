@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+       <meta name="author" content="">
+    <!-- link to css bootstrap and javascript  -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Garcias_mock-up-2.css">
+		<title>Garcias Contact Page</title>
+</head>
+
+
+<body>
+  <div class="container-fluid" id="cont1"><!--this is the first container-->
+   <div class="row">
+   	<div class="col-sm-12">
+     <h1>Contact us!</h1>
+    </div>
+   </div> <!-- end of row 1 div for the "contact us" -->
+</div><!-- end of container 1 -->
+
+    <div class="container-fluid" id="cont2"> <!-- start of container 2 -->
+
+     <div class="row"><!-- start of row 2-->
+
+<div>
+  <p class="lead" class="col-sm-6" id="thank_you">Thank you for visiting the Garcia's Kitchen Contact Us page. We thank you for your inquiry, and we will follow up within one business day. You can reach us directly at 123-456-7890 or feel free to use our quick and easy Online Contact form to send us any questions, comments, or concerns. Our friendly and professional staff is standing by waiting for your call or e-mail.</p>
+
+     <h3 id="team?"> Want to join our team?</h3> <!-- join our team header-->
+
+     <p>Print out the following application and return it to any of our loocation. imput the contact form  </p>
+
+     <button><a target="blank" href="https://www.garciaskitchen.com/pdf/garcias-kitchen-job-application.pdf" > application link </a></button>
+       </div><!-- this button link will send user to new page  -->
+      </div><!-- ene of col-sm-6  -->
+     </div><!-- end of row 2 div for contact page description  -->
+    <!-- end of container 2 -->
+
+
+      <div class="container-fluid" id="cont3">
+	     <div class="row">
+	   	  <div class="col-sm-6 mx-3">
+
+
+
+
+
+
+
+
+          <div class="container" id="contact_form"> <!-- i need this container next to the map-->
+
+            <div class="row">
+
+                <div class="col-sm-6">
+                  <!--previous pre-set values were: col-xl-8 offset-xl-2 py-5-->
+
+                <!-- this next section is from [ http://bootstrapious.com ] { https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form
+                }-->
+                    <form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Lastname *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_need">Please specify your inquiry*</label>
+                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                        <option value="">Please enter a option below*</option>
+                        <option value="Request employment availability">Request employment availability</option>
+                        <option value="Request service options">Request service options</option>
+                        <option value="Request reservation">Request reservation</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <!-- these drop menu values were custom input feel free to adjust them -->
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Enter message...</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Enter message..." rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted">
+                    <strong>*</strong> These fields are required.
+
+                    <!-- Contact form template by
+                    <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p> -->
+
+                    <!-- i used the note element to take out the advertising text
+            </div> -->
+        </div>
+    </div></form>
+
+      <div class="container-fluid" id="map_div">
+        <div class="row">
+         <div class="col-sm-6">
+	   		  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d52239.05289900487!2d-106.68437482935262!3d35.083211732782196!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87220cb42b8f491b%3A0x5c615eccefde84d9!2sGarcia&#39;s+Kitchen!5e0!3m2!1sen!2sus!4v1555029082254!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	   	  </div>
+       </div>
+      </div>
+
+
+
+
+<!-- links to extierior scripts including: jquery, cloudflare, bootstrap-4, ajax/bootstrap. -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+
+
+<!-- There is information throughout the page in comment tags that describe whats going on and what is what most helpful will be to see where i left off on the website I used the template from i will continue my personal build tomorrow its almost one AM now  -->
